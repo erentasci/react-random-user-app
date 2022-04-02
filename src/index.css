@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color:  rgb(100, 100, 237);
+  color: white;
+  max-width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+
+}
+
+.user-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.user-list ul li{
+  list-style:none;
+}
+
+.single-user-list{
+
+  background-color: rgba(94, 94, 216, 0.631);
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 0.7rem;
+}
+
+
+.single-user-list-container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-user-list-container img{
+  border-radius: 100%;
+  margin-right: 40px;
+}
+
+.single-user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.single-user-name{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.single-user-mail{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
